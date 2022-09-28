@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+body{
+    width: 100%;
+    max-width: 100%;
+    min-width: 445px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_1{
+    background: linear-gradient(180deg, #f53d2d 0%, #f63 100%);
+    width: 100%;
+    max-width: 100%;
+    min-width: 445px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+
+.menu_left h5{
+    color: rgb(215, 210, 210);
+}
+
+.header_1 h4{
+    margin: 0 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.header_1 a{
+    text-decoration: none;
+}
+
+.header_1 a h4:hover{
+    color: rgb(215, 210, 210);
+}
+
+.social a i{
+    margin-right: 5px;
+    width: px;
+}
+
+.social{
+    display: flex;
+    width: auto;
+    align-items: left;
+}
+
+.social a{
+    display: flex;
+}
+
+.menu_left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu_right{
+    display: flex;
+    align-items: center;
+}
+
+.social a i{
+    color: white;
+    font-size: 20px;
+}
+
+.menu_right a h4{
+    color:  white;
+}
+
+.menu_right a h4:hover{
+    color: rgb(215, 210, 210);
+}
+
+.menu_right i{
+    color: white;
+    font-size: 20px;
+    margin: 0px 2px;
+}
+
+/* Responsivo mobile */
+@media screen and (max-width: 720px){
+    .menu_right{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .menu_left{
+        width: 100%;
+        justify-content: center;
+    }
+}
