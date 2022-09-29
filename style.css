@@ -14,8 +14,9 @@ body{
     flex-direction: column;
 }
 
+/* header 1 */
 .header_1{
-    background: linear-gradient(180deg, #f53d2d 0%, #f63 100%);
+    
     width: 100%;
     max-width: 100%;
     min-width: 445px;
@@ -23,6 +24,10 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 3px;
+}
+
+header{
+    background: linear-gradient(180deg, #f53d2d 0%, #f63 100%);
 }
 
 .menu_left h5{
@@ -78,6 +83,10 @@ body{
     color:  white;
 }
 
+.menu_right h5{
+    color: rgb(215, 210, 210);
+}
+
 .menu_right a h4:hover{
     color: rgb(215, 210, 210);
 }
@@ -85,11 +94,100 @@ body{
 .menu_right i{
     color: white;
     font-size: 20px;
-    margin: 0px 2px;
+}
+
+.header_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo_img{
+    width: 200px;
+    padding: 0px 10px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.menu_sear_cart{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_bar{
+    background-color: white;
+    width: 95%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.search_txt{
+    height: 40px;
+    width: 95%;
+    border-radius: 5px;
+    outline-style: none;
+    border-style: none;
+    padding: 0px 15px;
+
+}
+
+.search_btn i{
+    font-size: 25px;
+}
+
+.search_btn{
+    background-color: rgb(251,85,51);
+    width: 50px;
+    padding: 2px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.search_bar a{
+    margin-right: 1%;
+}
+
+.cart{
+    padding: 1%;
+}
+
+.cart i{
+    font-size: 30px;
+}
+
+.menu_tags{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+.menu_tags h6{
+}
+
+.menu_tags ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+.menu_tags ul li{
+    margin: 10px 10px;
+}
+
+.menu_tags ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 /* Responsivo mobile */
-@media screen and (max-width: 720px){
+
+@media screen and (max-width: 840px){
+    /* header 1 */
     .menu_right{
         width: 100%;
         justify-content: center;
@@ -97,6 +195,19 @@ body{
 
     .menu_left{
         width: 100%;
+        justify-content: center;
+    }
+
+    /* header 2 */
+    .menu_tags{
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu_tags ul li{
+        margin: 10px 3px;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
     }
 }
