@@ -166,9 +166,6 @@ header{
     justify-content: center;
 }
 
-.menu_tags h6{
-}
-
 .menu_tags ul{
     display: flex;
     list-style: none;
@@ -176,7 +173,7 @@ header{
 }
 
 .menu_tags ul li{
-    margin: 10px 10px;
+    margin: 5px 10px;
 }
 
 .menu_tags ul li a{
